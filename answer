@@ -1,0 +1,27 @@
+Ok , I hope this is a java program( Even the syntax in c# is similar) .
+
+As this is only a partial code , I will give some points(logic)  to solve this assignment.
+
+I hope you know, how to implement  the mouseListeners  and bind them.(if it is java)
+
+1) Get a valid location nearest to the click (from GameRules).
+
+For this problem to solved, we need a predefined set of locations which are valid.Store them in any datastructures.
+
+Then when you clicked on a screen, you can capture the current (x,y) coordinates.
+
+Next step is to find the distance between the current coordinate and all the valid coordinates which are stored early.( you can use the algorithms like eucledian distance to calculate the distance) .
+
+Find the coordinate with the least distance ( which is the required coordinate for you)
+
+
+2) If nearest location is still far, do nothing.
+
+To do this you need to set a threshold distance at first.
+
+that is, for example , if the calculated distance is greater than 5, then consider the valid coordinate is far away form the current position.
+
+Based on this you can do all other parts also.
+
+
+
